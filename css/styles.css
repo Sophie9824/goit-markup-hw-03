@@ -42,6 +42,8 @@ li {
 
 .site-nav {
     display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -111,6 +113,9 @@ li {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .contacts .contact-item + .contact-item {
