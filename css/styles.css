@@ -22,22 +22,29 @@ body {
 
 }
 
-.img {
-    display: block;
-}
-
-
 .container {
     width: 1200px;    
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto; 
-    display: flex; 
+    margin-right: auto; 
+    margin-left: auto;    
     align-items: center;  
     margin-bottom: 0;   
     
       
 }
+
+.img {
+    display: block;
+}
+
+.header .container {
+    display: flex;
+    
+}
+
+
+
 
 
 li {
@@ -76,6 +83,7 @@ li {
 
 .main-nav {
     margin-left: 93px;
+    padding: 0;
 }
 
 .logo-web {
@@ -88,6 +96,11 @@ li {
     color: var(--brand-color);
     text-decoration: none;
 
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .site-link {
@@ -160,12 +173,12 @@ li {
 
 .effective {
     display: block;
-    align-items: center;
+    
     
     
 }
  .business-decisions {
-    width: 1600px;    
+    
     background-color: #2F303A;
     text-align: center;
     padding-top: 200px;
