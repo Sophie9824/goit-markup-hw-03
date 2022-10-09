@@ -242,17 +242,20 @@ display: block;
 }
 
 .employees {
-margin: 0 auto;
+width: 1200px;
+margin-right: auto;
+margin-left: auto;
 padding-left: 15px;
 padding-right: 15px;
 background-color: var(--another-bgd-color);
+align-items: center;
 
 
 }
 
 .employee-section-title {
     font-size: 36px;
-    line-height: 1,16;
+    line-height: calc( 42 / 36);
     text-align: center;
     color: var(--main-text-color);
     margin-bottom: 50px;
@@ -261,10 +264,17 @@ background-color: var(--another-bgd-color);
 .team-part {
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .team-part :not(:last-child) {
     margin-right: 30px;
+}
+
+.info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -277,22 +287,28 @@ background-color: var(--another-bgd-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     
+    
 }
 
+
 .participant {
+    
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;
-    text-align: center;    
+    line-height: calc(19 / 16);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
     
     }
 
 .job-title {
-    
     font-size: 16px;
-    line-height: 1.18; 
+    line-height: calc(19 / 16);
     text-align: center;
-    color:var(--another-text-color);
+    color: var(--another-text-color);
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .footer-contacts {
@@ -302,6 +318,11 @@ background-color: var(--another-bgd-color);
     line-height: 1.7;
     color: var(--another-text-color);    
 
+}
+
+.our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
