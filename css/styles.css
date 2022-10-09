@@ -22,6 +22,10 @@ body {
 
 }
 
+.img {
+    display: block;
+}
+
 
 .container {
     width: 1200px;    
@@ -44,6 +48,7 @@ li {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 
 
@@ -86,6 +91,7 @@ li {
 }
 
 .site-link {
+    
     display: flex; 
  }
  
@@ -138,19 +144,28 @@ li {
  }
 
 .decisions {
-    
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;    
     color: var(--background);
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+.effective {
+    display: block;
+    align-items: center;
     
     
 }
  .business-decisions {
-    width: 1600px;
-    
+    width: 1600px;    
     background-color: #2F303A;
     text-align: center;
     padding-top: 200px;
@@ -181,6 +196,10 @@ li {
  .benefits-list {
     display: flex;
     
+ }
+
+ .benefit-item {
+    width: 270px;
  }
 
  .benefits-list .benefit-item:not(:last-child) {
@@ -237,6 +256,8 @@ display: block;
 
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -323,6 +344,7 @@ align-items: center;
 .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--another-bgd-color);
 }
 
 
@@ -366,6 +388,13 @@ footer {
 
 }
 
+.futer-logo {
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    color: var(--background);
+    text-decoration: none;
+}
+
 .logo-link {
     display: flex;
     padding-top: 60px;
@@ -377,6 +406,11 @@ footer {
     line-height: 1,19;
     color: var(--background);
     text-decoration: none;
+}
+
+.futer {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-list {
