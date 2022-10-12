@@ -406,9 +406,8 @@ footer {
     background-color: #2F303A
 }
 
-.page-footer .container {
-    padding: 60px 0;
-}
+
+
 
 .adress {
     font-style: normal;
@@ -471,7 +470,7 @@ footer {
 .footer-list {
     padding: 0;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 
@@ -482,8 +481,7 @@ footer {
 } 
 
 .footer-nav {
-    padding-top: 94px;
-    padding-bottom: 94px;
+   padding: 60px 0;
 }
 
 .project-title {
