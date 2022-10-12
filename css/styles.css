@@ -297,8 +297,10 @@ margin-bottom: 50px;
 box-sizing: border-box;
 font-size: 36px;
 line-height: 1.16;
+letter-spacing: 0.03em;
 text-align: center;
 display: block;
+
 }
 
 .section.images {
