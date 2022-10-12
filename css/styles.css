@@ -19,6 +19,8 @@ body {
     --another-text-color:#757575;
     --background: #FFFFFF;
     --another-bgd-color: #F5F4FA;
+    --button-active:  #188CE8;
+    --border-color: #EEEEEE; 
 
 }
 
@@ -70,6 +72,10 @@ img {
 
 li {
     list-style-type: none;
+}
+
+.header {
+    border-bottom: 1px solid var(--border-color);
 }
 
 .site-nav {
@@ -146,8 +152,7 @@ li {
    }
 
 .contacts {
-    display: flex;
-    justify-content: flex-end;
+    display: flex;   
     margin-left: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -185,6 +190,7 @@ li {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+    text-transform: uppercase;
     
     
     
@@ -475,6 +481,11 @@ footer {
    
 } 
 
+.footer-nav {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .project-title {
     margin-top: 0;
     margin-bottom: 4px;     
@@ -526,16 +537,6 @@ footer {
 
                     
                     
-.project {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    outline: var(--another-text-color);
-}
-
-
-
-
-
 
 .order-button {
     min-width: 216px;
@@ -549,38 +550,35 @@ footer {
     text-align: center;
     cursor: pointer;
     letter-spacing: inherit;
-    background-color: #F5F4FA;
+    background-color:var(--brand-color);
     color: var(--main-text-color);
     border: 0;
 }
 
 .order-button:hover,
 .order-button:focus {
-    background-color: var(--brand-color);
+    background-color:var(--button-active);
     color: var(--background);
 } 
 
 .project-menu {
-    
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;    
-}
-
-.project-link {
+    gap: 30px;
     
-    width: calc((100% - 60px) / 3);
-    margin-right: 30px;
-    margin-bottom: 30px;       
-   
+    
+     
 }
 
 
-
-.project-link:nth-child(3n) {
-    margin-right: 0;
+.project {
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-left: 24px;
+    padding-right: 24px;
 }
-
 
 .filter-button {
     font-family: inherit;
