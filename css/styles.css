@@ -210,16 +210,7 @@ li {
     padding-bottom: 200px;
     
  }
-
-
-
-
-
- button:hover,
- button:focus {
-    background-color: var(--background);
-    color: var(--main-text-color);
- }
+ 
 
  .secialities-container {
     box-sizing: border-box;
@@ -500,7 +491,7 @@ footer {
     border: 1px solid #EEEEEE;
 }
 .project-name {
-   
+    margin: 0;
     font-size: 16px;
     line-height: 1.88;
     color: var(--another-text-color);
@@ -551,14 +542,14 @@ footer {
     cursor: pointer;
     letter-spacing: inherit;
     background-color:var(--brand-color);
-    color: var(--main-text-color);
+    color: var(--background);
     border: 0;
 }
 
 .order-button:hover,
 .order-button:focus {
     background-color:var(--button-active);
-    color: var(--background);
+   
 } 
 
 .project-menu {
@@ -578,6 +569,8 @@ footer {
     border-bottom: 1px solid var(--border-color);
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .filter-button {
